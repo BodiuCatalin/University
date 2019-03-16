@@ -1,0 +1,10 @@
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\bin\Debug\MakingACube.exe.config
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\bin\Debug\MakingACube.exe
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\bin\Debug\MakingACube.pdb
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\obj\Debug\MakingACube.csprojAssemblyReference.cache
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\obj\Debug\MakingACube.Form1.resources
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\obj\Debug\MakingACube.Properties.Resources.resources
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\obj\Debug\MakingACube.csproj.GenerateResource.cache
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\obj\Debug\MakingACube.csproj.CoreCompileInputs.cache
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\obj\Debug\MakingACube.exe
+C:\Users\Catalin\source\repos\MakingACube\MakingACube\obj\Debug\MakingACube.pdb
