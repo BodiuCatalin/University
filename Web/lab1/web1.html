@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <title>Formular Review Video Game </title>
+        <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+    </head>
+    <body>
+        <form id="form-div" action="POST">
+            <div align="center">
+                <fieldset>
+                    <legend>User doing the review</legend>
+                    Name:<input type="text" readonly value="User"><br>
+		            *Reviews with offensive names <b>will be deleted and user with be banned!</b>
+                </fieldset>
+            </div>
+            <table id="form-table" border="2">
+                    <thead>
+                            <tr>
+                                <th colspan="2">Video Game - Review Form</th>
+                            </tr>
+                    </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td style="vertical-align:initial;">
+                                    <table id="form-table-game">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="4" bgcolor="blue">Game details</th>
+                                            </tr>
+                                        </thead>
+                                        
+                                        <tbody>
+                                            <tr>
+                                                <td>Game name:</td>
+                                                <td><input id="fname" type="text" name="gname" maxlength="20" disabled></td>
+                                                
+                                                <td>Publisher:</td>
+                                                <td><input id="email" type="text" name="publish" maxlength="60"></td>
+                                                
+                                            </tr>
+                                            
+                                            <tr>
+                                            
+                                                <td>Children restricted:</td>
+                                                <td>
+                                                    <input type="radio" name="cr" value="y">Yes
+                                                    <input type="radio" name="cr" value="n">No
+                                                </td>
+                                            </tr>
+                                    
+                                            <tr>
+                                                    <td>Video game tip:</td>
+                                                    <td>
+                                                        <select id="car">
+                                                            <option value="RPG">RPG</option>
+                                                            <option value="First Person Shooter">First Person Shooter</option>
+                                                            <option value="Strategy" selected="selected">Streategy</option>
+                                                            <option value="MMORPG">MMORPG</option>
+                                                        </select>
+                                                    </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>Development:</td>
+                                                <td><input type="text" maxlength="40" name="adr1"></td>
+                                            </tr>
+                                                     
+                                            <tr>               
+                                                <td>Version:</td>
+                                                <td><input type="text" maxlength="40" name="adr2"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            
+                                <td>
+                                    <table id="form-table-results">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="4" >Review</th>
+                                            </tr>
+                                        </thead>
+                                        
+                                        <tbody>
+                                            
+                                            <tr>
+                                                <td>Game Rate:</td>
+                                                <td colspan="3">
+                                                    <input type="radio" name="gamerate" value="1">1
+                                                    <input type="radio" name="gamerate" value="2">2
+                                                    <input type="radio" name="gamerate" value="3">3
+                                                    <input type="radio" name="gamerate" value="4">4
+                                                    <input type="radio" name="gamerate" value="5" checked="checked">5
+                                                    <input type="radio" name="gamerate" value="6">6
+                                                    <input type="radio" name="gamerate" value="7">7
+                                                    <input type="radio" name="gamerate" value="8">8
+                                                    <input type="radio" name="gamerate" value="9">9
+                                                </td>
+                                            </tr>
+                                                
+                                            <tr>
+                                                <td>Price rate:</td>
+                                                <td colspan="3">
+                                                    <input type="radio" name="price" value="1">1
+                                                    <input type="radio" name="price" value="2">2
+                                                    <input type="radio" name="price" value="3">3
+                                                    <input type="radio" name="price" value="4">4
+                                                    <input type="radio" name="price" value="5" checked="checked">5
+                                                    <input type="radio" name="price" value="6">6
+                                                    <input type="radio" name="price" value="7">7
+                                                    <input type="radio" name="price" value="8">8
+                                                    <input type="radio" name="price" value="9">9
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>Favourite features:</td>
+                                                <td colspan="3">
+                                                    <table>
+                                                        <tr>
+                                                            <td><input type="checkbox" name="features" value="pvp">PVP</td>
+                                                            <td><input type="checkbox" name="features" value="quests">Quests</td>
+                                                            <td><input type="checkbox" name="features" value="Texture">Texture</td>
+                                                            <td><input type="checkbox" name="features" value="Plot">Plot</td>
+                                                            
+                                                        </tr>
+                                                        
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="2">
+                                    <table id="form-table-questions" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th>Questions</th>
+                                            </tr>
+                                        </thead>
+                                        
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <ol type="1" start="1">
+                                                        <li>Would you recommend it to a friend?<br>
+                                                        <input type="radio" name="buy" value="yes">Yes
+                                                        <input type="radio" name="buy" value="no">No</li>
+                                                        
+                                                        <li>What would be a suitable price for this game? (euros)<br>
+                                                        <input type="text" maxlength="8" size="100%" value="1000"></li>
+                                                        
+                                                        
+                                                        <li>What would be a good addition to the featureset of this game?<br>
+                                                        <input type="text" maxlength="100" size="100%"></li>
+                                                    </ol>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="2">
+                                    <table id="form-table-comments" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="3">Comments</th>
+                                            </tr>
+                                        </thead>
+                                        
+                                        <tbody>
+                                            
+                                            <tr>
+                                                <td><center><textarea cols="40" rows="10"></textarea></center></td>
+                                                <td valign="bottom">*Read Rules!</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                    <td><center><p>Please read this rules before submiting your comment!</p></center></td>
+                                            </tr>
+
+                                            <tr>
+                                                
+                                                <td>
+                                                    <ul>
+                                                        <li><strong>Do not use offensive words!</strong></li>
+                                                        <li><strong>Do not use hate speech!</strong></li>
+                                                        <li><strong>Do not write personal information about youself or another persons information</strong></li>
+                                                    </ul>
+                                                </td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td><center><p>Review will get deleted if rules are not respected!</p></center></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="2">
+                                    <center><input type="submit"></center>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><center><h1>Thank you for the review!</h1></center></td>
+                                <td><center><h3>Have fun gaming!</h3></center></td>
+                                   
+                            </tr>
+                        </tbody>
+            </table>
+        </form>
+        <a href="https://www.w3schools.com" target="_blank">Visit W3Schools!</a>
+        <img src="fist.png" alt="fistbro" width="42" height="42">
+    </body>
+
+
+</html>
